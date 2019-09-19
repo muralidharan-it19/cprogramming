@@ -4,7 +4,7 @@ void main()
 int a,b,c,d;
 printf("enter values for a,b,c,d:");
 scanf("%d %d %d %d",&a,&b,&c,&d);
-if(a<b&&a<c)
+if(a<b&&a<c&&a<d)
 {
 printf("%d is smaller",a);
 }
