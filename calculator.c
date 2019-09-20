@@ -20,6 +20,9 @@ break;
 case 4:
 printf("the division of a and b is %d",a/b);
 break;
+default:
+printf("invalid operation");
+break;
 }
 }
 
