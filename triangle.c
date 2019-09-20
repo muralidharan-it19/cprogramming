@@ -1,15 +1,22 @@
+
 #include<stdio.h>
 void main()
 {
 int a,b,c;
-printf("Enter 3 angles of the triangle:");
-scanf("%d %d %d",&a,&b,&c);
-if(a+b+c==180)
+printf("Enter degree of angle1:" );
+scanf("%d",&a);
+printf("Enter degreee of angle2:");
+scanf("%d",&b);
+printf("Enter degree of angle3:");
+scanf("%d",&c);
+if (a!=0&&b!=0&&c!=0)
 {
-printf("It is valid triangle");
+if (a+b+c==180)
+{
+printf("it is a valid triangle");
 }
 else
 {
-printf("It is not a valid triangle");
+printf("it is not a valid triangle");
 }
 }
